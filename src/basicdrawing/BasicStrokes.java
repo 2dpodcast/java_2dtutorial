@@ -7,18 +7,16 @@ import java.awt.Graphics2D;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class BasicStrokes extends JPanel
-{
-    public void paintComponent(Graphics g)
-    {
+public class BasicStrokes extends JPanel {
+    public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
         Graphics2D g2d = (Graphics2D) g;
 
-        float[] dash1 = { 2f, 0f, 2f };
-        float[] dash2 = { 1f, 1f, 1f };
-        float[] dash3 = { 4f, 0f, 2f };
-        float[] dash4 = { 4f, 4f, 1f };
+        float[] dash1 = {2f, 0f, 2f};
+        float[] dash2 = {1f, 1f, 1f};
+        float[] dash3 = {4f, 0f, 2f};
+        float[] dash4 = {4f, 4f, 1f};
 
         g2d.drawLine(20, 40, 250, 40);
 
@@ -47,8 +45,7 @@ public class BasicStrokes extends JPanel
         g2d.drawLine(20, 200, 250, 200);
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         JFrame frame = new JFrame("BasicStroke");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(new BasicStrokes());
