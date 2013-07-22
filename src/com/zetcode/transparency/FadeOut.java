@@ -1,4 +1,4 @@
-package transparency;
+package com.zetcode.transparency;
 
 import java.awt.AlphaComposite;
 import java.awt.Graphics;

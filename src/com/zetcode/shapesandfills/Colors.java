@@ -1,4 +1,4 @@
-package shapesandfills;
+package com.zetcode.shapesandfills;
 
 import java.awt.Color;
 import java.awt.Graphics;

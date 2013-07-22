@@ -1,4 +1,4 @@
-package clipping;
+package com.zetcode.clipping;
 
 import java.awt.Color;
 import java.awt.Graphics;
